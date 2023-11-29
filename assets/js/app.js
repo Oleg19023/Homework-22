@@ -6,7 +6,6 @@ const additionalInputs = document.getElementById('additionalInputs'); // #1
 function UpdateInput() {
     const selectedValue = document.getElementById('question').value;
     additionalInputs0.style.display = (selectedValue === '1') ? 'block' : 'none'; // #0
-    additionalInputs.style.display = (selectedValue === '2') ? 'block' : 'none'; // #1
 
 }
 
